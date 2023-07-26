@@ -1,11 +1,98 @@
-body {
-  font-family: sans-serif;
+
+
+.profileId {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+.profileId img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  margin-right: 20px;
+}
+
+
+.profileId div { border: 4px black;
+
+}
+
+
+.profileId h1 {
+  font-size: 24px;
   margin: 0;
 }
 
-html,
-body,
-#root {
-  height: 100%;
-  width: 100%;
+.profileId h2 {
+  font-size: 18px;
+  margin: 5px 0;
 }
+
+.profileId p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+.ContactHolder {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+}
+
+.contactHolder h5 {
+  font-size: 22px;
+  margin:  10px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+nav button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.postHolder {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.postHolder h4 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.postHolder div {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.postHolder h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.postHolder p {
+  font-size: 14px;
+  margin: 0;
+}
+
