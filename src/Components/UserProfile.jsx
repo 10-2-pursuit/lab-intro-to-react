@@ -3,12 +3,12 @@ import Pic from "../profile.png"
 
 const UserProfile = () => {
     return (
-        <li>
+        <div class="user">
             <img src={Pic} alt="picture" />
-            <h2>Jordan Walker</h2>
-            <h3>React Creator</h3>
+            <h3>Jordan Walker</h3>
+            <h4>React Creator</h4>
             <p>Lorem Ipsem</p>
-        </li>
+        </div>
     )
 }
 

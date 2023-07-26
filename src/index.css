@@ -9,3 +9,47 @@ body,
   height: 100%;
   width: 100%;
 }
+
+header {
+  background-color: aqua;
+  text-align: end;
+  padding: 10px 10px 10px 10px;
+}
+
+button{
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "u u c"
+  "p p c"
+  "p p c";
+}
+
+.user{
+  grid-area: u;
+}
+
+.user img {
+  float: left;
+}
+
+.posts{
+  grid-area: p;
+}
+
+.contacts{
+  grid-area: c;
+}
+
+.user, .posts, .contacts {
+  border: 3px solid black;
+  margin: 10px;
+}

@@ -9,9 +9,11 @@ function App() {
   return (
     <div>
       <Header />
+      <div class="content">
       <UserProfile />
       <Posts />
       <Contacts />
+      </div>
     </div>
   )
 }

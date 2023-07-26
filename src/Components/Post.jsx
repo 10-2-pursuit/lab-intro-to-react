@@ -4,17 +4,17 @@ const Post= () => {
     return (
         <>
         <li>
-            <h2>Title</h2>
+            <h3>Title</h3>
             <p>Lorem Ipsem</p>
         </li>
         <li>
 
-            <h2>Title</h2>
+            <h3>Title</h3>
             <p>Lorem Ipsem</p>
         </li>
         <li>
 
-            <h2>Title</h2>
+            <h3>Title</h3>
             <p>Lorem Ipsem</p>
         </li>
         </>

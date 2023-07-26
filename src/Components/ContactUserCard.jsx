@@ -6,26 +6,26 @@ const List = () => {
         <>
         <li>
             <img src={Pic} alt="picture" />
-            <h2>Jordan Walker</h2>
-            <h3>React Creator</h3>
+            <h3>Jordan Walker</h3>
+            <h4>React Creator</h4>
             <p>Lorem Ipsem</p>
         </li>
         <li>
             <img src={Pic} alt="picture" />
-            <h2>Jordan Walker</h2>
-            <h3>React Creator</h3>
+            <h3>Jordan Walker</h3>
+            <h4>React Creator</h4>
             <p>Lorem Ipsem</p>
         </li>
         <li>
             <img src={Pic} alt="picture" />
-            <h2>Jordan Walker</h2>
-            <h3>React Creator</h3>
+            <h3>Jordan Walker</h3>
+            <h4>React Creator</h4>
             <p>Lorem Ipsem</p>
         </li>
         <li>
             <img src={Pic} alt="picture" />
-            <h2>Jordan Walker</h2>
-            <h3>React Creator</h3>
+            <h3>Jordan Walker</h3>
+            <h4>React Creator</h4>
             <p>Lorem Ipsem</p>
         </li>
         </>
