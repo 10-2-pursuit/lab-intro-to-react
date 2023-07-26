@@ -9,3 +9,28 @@ body,
   height: 100%;
   width: 100%;
 }
+
+#root{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+ 
+.navBar button{
+margin: 5px
+}
+
+.profileId{
+border: 1px solid black;
+margin: 15px;
+padding: 3px;
+}
+
+.userProfile{
+  text-align: left;
+}
+
+#contactCard{
+
+}
+

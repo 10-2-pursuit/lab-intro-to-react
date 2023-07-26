@@ -3,9 +3,9 @@ import UserProfile from './UserProfile';
 const ContactUserCard = () => {
     return (
         <div>
-            <> 
+            <h3> 
                <UserProfile /> 
-            </>
+            </h3>
         </div>
     );
 }

@@ -23,7 +23,7 @@ export default Posts;
 
 1. Navigate to the cloned repository's directory on your command line. Then, run the following command:
 
-   ```
+   ```v
    npm install
    ```
 

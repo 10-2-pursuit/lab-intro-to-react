@@ -4,7 +4,7 @@ import Post from './Post';
 const Posts = () => {
     return (
         <div className='postHolder'>
-            <h2>Posts</h2>
+            <h4>Posts</h4>
             <Post />
             <Post />
             <Post />
