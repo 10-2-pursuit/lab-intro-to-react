@@ -2,12 +2,14 @@ import ProfilePicture from '../profile.png'
 
 const UserProfile = () => {
     return (
-        <div>
+        <div className='userProfile'>
             
             <img src={ ProfilePicture } alt='' ></img>
-            <h1>Jack Brown</h1>
-            <h3>Software Engineer</h3>
-            <p> lorem Ipsum</p>
+            <div className='info'>
+                <h2>Jack Brown</h2>
+                <h3>Software Engineer</h3>
+                <p> lorem Ipsum</p>
+            </div>
             
         </div>
     );

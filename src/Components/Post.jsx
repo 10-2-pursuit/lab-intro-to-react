@@ -2,7 +2,7 @@ import React from 'react';
 
 const Post = () => {
     return (
-        <div>
+        <div className='singlePost'>
             <h2>Title</h2>
             <p>Lorem Ipsum</p>
         </div>

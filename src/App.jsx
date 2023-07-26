@@ -3,14 +3,16 @@ import "./index.css";
 import UserProfile from './Components/UserProfile'
 import Contacts from "./Components/Contacts";
 import Posts from "./Components/Posts";
+import NavBar from "./Components/NavBar";
 
 function App() {
   return ( 
-    <div>
+    <>
+      <NavBar />
       <UserProfile />
       <Contacts />
       <Posts />
-    </div>
+    </>
     )
 }
 

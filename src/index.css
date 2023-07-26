@@ -1,11 +1,66 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-}
-
 html,
 body,
 #root {
   height: 100%;
-  width: 100%;
+  width: 100vw;
+  display:grid;
+  grid-template-columns: 34% repeat(2, 33%);
+  grid-template-rows: 50px auto auto;
+  grid-template-areas: "ga1 ga1 ga1" "ga2 ga2 ga3" "ga4 ga4 ga3";
+}
+.navBar{
+  background-color: aqua;
+  grid-area: ga1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.userProfile {
+  grid-area: ga2;
+  border: 1px solid black;
+  margin: 15px;
+  padding: 3px;
+  display: flex;
+  align-items: flex-start;
+}
+.contactList {
+  grid-area: ga3;
+  border: 1px solid;
+  align-items: center;
+  margin: 15px;
+  padding: 3px;
+  text-align: center;
+}
+.postHolder {
+  grid-area: ga4;
+  border: 1px solid black;
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.navBar button {
+  margin: 5px;
+  text-align: right;
+  align-items: end;
+}
+.userProfile > * {
+  text-align: left;
+}
+li {
+  list-style: none;
+}
+.cards {
+
+}
+.singlePost {
+  border: 1px solid black;
+  margin: 15px;
+  text-align: center;
+  
+}
+.info {
+  margin: 15px;
+  text-align: center;
 }

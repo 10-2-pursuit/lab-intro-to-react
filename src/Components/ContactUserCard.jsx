@@ -3,7 +3,7 @@ import UserProfile from './UserProfile'
 
 const ContactUserCard = () => {
     return (
-        <li>
+        <li className='Cards'>
             <UserProfile />
         </li>
         
