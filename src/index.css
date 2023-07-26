@@ -9,3 +9,20 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px 50px;
+}
+
+.box {
+  border: 2px solid black;
+  display: flex;
+  grid-auto-rows: auto;
+}
+
+#one {
+  grid-row: 1/2;
+}
