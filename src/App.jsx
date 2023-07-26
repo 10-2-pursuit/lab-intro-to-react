@@ -4,14 +4,19 @@ import Posts from "./Components/Posts";
 import NavBar from "./Components/NavBar";
 import "./index.css";
 
-
 function App() {
   return (
     <>
-      <h1>Hello, world!</h1>
-      <NavBar />
-      <UserProfile />
-      <Posts />
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <NavBar />
+          </div>
+        </div>
+
+        <UserProfile />
+        <Posts />
+      </div>
     </>
   );
 }
