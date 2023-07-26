@@ -1,6 +1,5 @@
 import React from 'react';
-import ProfilePicture from '../profile.png'
-import UserProfile from './Components/UserProfile'
+import UserProfile from './UserProfile'
 
 const ContactUserCard = () => {
     return (
