@@ -9,11 +9,9 @@ function App() {
   return (
     <div>
       <NavBar />
-      <div>
-        <div>
-          <UserProfile />
-          <Posts />
-        </div>
+      <UserProfile />
+      <div className="contents">
+        <Posts />
         <Contacts />
       </div>
     </div>
