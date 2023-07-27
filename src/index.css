@@ -6,17 +6,17 @@ body,
   display:grid;
   grid-template-columns: 34% repeat(2, 33%);
   grid-template-rows: 50px auto auto;
-  grid-template-areas: "ga1 ga1 ga1" "ga2 ga2 ga3" "ga4 ga4 ga3";
+  grid-template-areas: "nav nav nav" "user user contact" "posts posts contact";
 }
 .navBar{
-  background-color: aqua;
-  grid-area: ga1;
+  background-color: rgb(255, 25, 0);
+  grid-area: nav;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 .userProfile {
-  grid-area: ga2;
+  grid-area: user;
   border: 1px solid black;
   margin: 15px;
   padding: 3px;
@@ -24,7 +24,7 @@ body,
   align-items: flex-start;
 }
 .contactList {
-  grid-area: ga3;
+  grid-area: contact;
   border: 1px solid;
   align-items: center;
   margin: 15px;
@@ -32,7 +32,7 @@ body,
   text-align: center;
 }
 .postHolder {
-  grid-area: ga4;
+  grid-area: posts;
   border: 1px solid black;
   align-items: center;
   margin: 15px;
