@@ -1,11 +1,13 @@
 import ContactUserCard from "./ContactUserCard";
 const Contacts = () => {
   return (
-    <div>
+    <div className="container">
       <h2>Contacts</h2>
-      <ContactUserCard />
-      <ContactUserCard />
-      <ContactUserCard />
+      <ul>
+        <ContactUserCard />
+        <ContactUserCard />
+        <ContactUserCard />
+      </ul>
     </div>
   );
 };

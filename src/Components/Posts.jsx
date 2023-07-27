@@ -1,11 +1,13 @@
 import Post from "./Post";
 const Posts = () => {
   return (
-    <div>
+    <div className="container">
       <h2>Posts</h2>
-      <Post />
-      <Post />
-      <Post />
+      <ul>
+        <Post />
+        <Post />
+        <Post />
+      </ul>
     </div>
   );
 };
