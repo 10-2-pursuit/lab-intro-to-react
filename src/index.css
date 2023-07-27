@@ -8,4 +8,36 @@ body,
 #root {
   height: 100%;
   width: 100%;
+  text-align: center;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav {
+  background-color: aqua;
+  display: flex;
+  justify-content: right;
+}
+
+.nav button {
+  margin: 5px;
+}
+
+.userInfo {
+  margin: 15px;
+}
+
+li {
+  list-style-type: none;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.container {
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px;
 }
