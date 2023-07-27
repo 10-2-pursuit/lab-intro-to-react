@@ -1,11 +1,66 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-}
-
 html,
 body,
 #root {
   height: 100%;
-  width: 100%;
+  width: 100vw;
+  display:grid;
+  grid-template-columns: 34% repeat(2, 33%);
+  grid-template-rows: 50px auto auto;
+  grid-template-areas: "nav nav nav" "user user contact" "posts posts contact";
+}
+.navBar{
+  background-color: rgb(255, 25, 0);
+  grid-area: nav;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.userProfile {
+  grid-area: user;
+  border: 1px solid black;
+  margin: 15px;
+  padding: 3px;
+  display: flex;
+  align-items: flex-start;
+}
+.contactList {
+  grid-area: contact;
+  border: 1px solid;
+  align-items: center;
+  margin: 15px;
+  padding: 3px;
+  text-align: center;
+}
+.postHolder {
+  grid-area: posts;
+  border: 1px solid black;
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.navBar button {
+  margin: 5px;
+  text-align: right;
+  align-items: end;
+}
+.userProfile > * {
+  text-align: left;
+}
+li {
+  list-style: none;
+}
+.cards {
+
+}
+.singlePost {
+  border: 1px solid black;
+  margin: 15px;
+  text-align: center;
+  
+}
+.info {
+  margin: 15px;
+  text-align: center;
 }
