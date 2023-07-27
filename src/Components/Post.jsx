@@ -1,9 +1,9 @@
 const Post = () => {
   return (
-    <div>
+    <li>
       <h2>Title</h2>
       <p>Lorem Ipsum</p>
-    </div>
+    </li>
   );
 };
 
