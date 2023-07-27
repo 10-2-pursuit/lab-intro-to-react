@@ -1,0 +1,22 @@
+.posts {
+    grid-area: 3 / 1 / 4 / 3;
+    align-items: center;
+    border: 2px solid black;
+    margin-right: 40px;
+    padding: 2px;
+    margin: 0px 40px 0px 5px;
+    height: 100%;
+    grid-area: posts;
+}
+
+.posts-title {
+    font-weight: bold;
+}
+
+  .posts p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+

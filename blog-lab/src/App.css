@@ -1,0 +1,13 @@
+/* App.css */
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas:
+    "nav-bar nav-bar nav-bar"
+    "user-profile user-profile contacts"
+    "posts posts posts";
+}

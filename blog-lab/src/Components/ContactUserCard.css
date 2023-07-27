@@ -1,0 +1,46 @@
+.contact-user-card {
+  display: flex;
+  border: 2px solid black;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  margin: 0px auto ;
+  padding-top: 0px;
+  height: 80%;
+  width: 500px;
+}
+
+.user-profile img {
+  margin-right: 10px;
+  align-items: flex-start;
+}
+
+.contact-user-card p {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-items: center;
+}
+
+.contact-user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-user-name {
+  font-weight: bold;
+  font-size: 12pt;
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+.contact-title {
+  font-size: 10pt;
+  margin-top: 0px;
+}
+
+.contact-description {
+  font-size: 8pt;
+  margin-bottom: 10px;
+}

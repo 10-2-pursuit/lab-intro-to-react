@@ -1,0 +1,17 @@
+.post {
+    align-items: center;
+    border: 2px solid black;
+    width: 90%;
+    margin: 20px auto;
+    padding: 0px;
+    
+}
+
+.post-title {
+    font-weight: bold;
+}
+
+.post-description {
+    font-size: 10pt;
+
+}
