@@ -2,11 +2,13 @@ import React from "react";
 
 const UserProfile = () => {
     return (
-        <div>
+        <div className="user-profile">
             <img src="./src/profile.png" alt="profile-photo" />
+            <div>
             <h1>Full Name</h1>
             <h2>Job title</h2>
             <p>Bio info</p>
+            </div>
         </div>
     )
 }

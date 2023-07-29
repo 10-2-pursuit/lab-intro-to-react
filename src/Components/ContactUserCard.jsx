@@ -1,33 +1,15 @@
 import React from "react";
 
-const UserCard = () => {
+const UserCard = ({name, role, bio}) => {
     return (
-        <div>
-        <li>
-        <img src="./src/profile.png" alt="profile-photo" />
-        <h1>Full Name</h1>
-        <h2>Job title</h2>
-        <p>Bio info</p>
-        </li>
-        <li>
-        <img src="./src/profile.png" alt="profile-photo" />
-        <h1>Full Name</h1>
-        <h2>Job title</h2>
-        <p>Bio info</p>
-        </li>
-        <li>
-        <img src="./src/profile.png" alt="profile-photo" />
-        <h1>Full Name</h1>
-        <h2>Job title</h2>
-        <p>Bio info</p>
-        </li>
-        <li>
-        <img src="./src/profile.png" alt="profile-photo" />
-        <h1>Full Name</h1>
-        <h2>Job title</h2>
-        <p>Bio info</p>
-        </li>
-    </div>
+        <div className="user-contact-card">
+            <img src="./src/profile.png" alt="profile-photo" />
+            <div>
+            <h1>{name}</h1>
+            <h2>{role}</h2>
+            <p>{bio}</p>
+            </div>
+        </div>
     )
 }
 export default UserCard;

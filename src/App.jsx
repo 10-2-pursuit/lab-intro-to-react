@@ -14,14 +14,13 @@ function App() {
         <NavBar/>
       </header>
     <div class="container">
-      <div class="box" id="one" >
+      <div className="box"  >
         <UserProfile/>
-      </div>
-      <div class="box">
-        <Contacts/>
-      </div>
-      <div class="box">
         <Posts/>
+      </div>
+      <div className="box" >
+        <Contacts/>
+     
       </div>
      
     </div>

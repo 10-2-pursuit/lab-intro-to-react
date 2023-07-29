@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
     return (
-        <div>
+        <div className="buttons">
             <button>What is Pursuit</button>
             <button>Create an Account</button>
             <button>Sign In</button>
