@@ -1,0 +1,25 @@
+.nav-bar {
+    background-color: aqua;
+    border: 1px solid black;
+    font-size: 10pt;
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .nav-bar p {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: white;
+  }
+
+  .nav-bar {
+    grid-area: nav-bar;
+  }
+  
