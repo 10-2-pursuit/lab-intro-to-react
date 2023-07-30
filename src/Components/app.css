@@ -1,0 +1,39 @@
+.contactuser {
+    text-align: left;
+    border: solid black;
+    padding: 10px;
+    margin: 150px;
+
+}
+
+.post {
+    text-align: center;
+    border: solid black;
+    padding: 10px;
+    margin: 150px;
+    margin-bottom: 10px;
+}
+
+
+.title {
+    border: solid rgb(25, 21, 21);
+    margin: 60px;
+}
+
+.nav {
+    width: auto;
+    text-align: right;
+    background-color: aqua;
+    height: 50px;
+
+}
+
+.contact {
+    text-align: center;
+    border: solid black;
+    padding: 10px;
+    margin: 150px;
+    margin-bottom: 100px;
+   
+}
+
