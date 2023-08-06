@@ -119,3 +119,7 @@ main {
   gap: 10px;
   margin-left: 1em;
 }
+
+.contact-user-card h4 {
+  font-size: 15px;
+}
