@@ -93,3 +93,29 @@ main {
 .post p {
   text-align: center;
 }
+
+.contacts {
+  border: 2px solid burlywood;
+}
+
+.contacts h3 {
+  text-align: center;
+}
+
+.contact-user-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  border: 2px solid burlywood;
+  margin: 2em;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-evenly;
+  gap: 10px;
+  margin-left: 1em;
+}
