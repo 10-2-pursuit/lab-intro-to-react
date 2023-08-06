@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
-  margin: 0;
 }
 
 html,
@@ -8,4 +13,113 @@ body,
 #root {
   height: 100%;
   width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.6em;
+  padding-right: 25px;
+  background-color: mistyrose;
+  width: 100%;
+  height: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(105, 5, 5);
+  background-color: gold;
+  border-radius: 10px;
+  padding: 7px;
+  font-weight: bolder;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  padding: 15px;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: space-between;
+  height: 145px;
+  border: 2px solid burlywood;
+  width: 60vw;
+  margin: 5px;
+  gap: 10px;
+}
+
+#profile-img {
+  width: 20%;
+}
+
+#profile-img img {
+  width: 100%;
+}
+
+#profile-description {
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 2, 2);
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-between;
+  border: 2px solid burlywood;
+  width: 60vw;
+  margin: 5px;
+  gap: 10px;
+}
+
+.posts h3 {
+  text-align: center;
+}
+
+.post {
+  border: 2px solid burlywood;
+  margin: 0.7em;
+  padding: 0.7em;
+}
+
+.post h4,
+.post p {
+  text-align: center;
+}
+
+.contacts {
+  border: 2px solid burlywood;
+}
+
+.contacts h3 {
+  text-align: center;
+}
+
+.contact-user-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  border: 2px solid burlywood;
+  margin: 2em;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-evenly;
+  gap: 10px;
+  margin-left: 1em;
+}
+
+.contact-user-card h4 {
+  font-size: 15px;
 }
